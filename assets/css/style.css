@@ -1,0 +1,136 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: pink;
+    --secondary-color: black;
+    --tertiary-color: gray;
+}
+
+
+
+/* body */
+
+body {
+    background-color: white;
+}
+
+/* header */
+
+header {
+    padding: 20px 35px; 
+    background-color: white;
+    color: black;
+    
+    justify-content: space-between;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    background-image: url("../images/background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+
+header h1 {
+    font-weight: bold;
+    font-size: 45px;
+    font-style: italic;
+    margin: 0;
+    color: var(--primary-color);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+header a {
+    text-decoration: none;   /* no line under link */
+}
+
+section {
+    padding: 60px;
+}
+
+/* navigation */
+
+header nav {
+    margin: 7px;
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+header nav ul li a {
+    padding: 10px 15px;
+    font-weight: lighter;
+    font-size: 1.55vw;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    color: var(--primary-color);
+}
+
+
+
+/* hero */
+
+.hero {  /* cool quote */
+    background-image: url("../images/background.jpg"); 
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+/* sections */
+section p {      /* all section p */
+    font-size: 18px;
+    color: var(--tertiary-color);
+}
+
+section a {
+    text-decoration: none;   /* no line under link */
+    padding: 8px;
+}
+
+/* about me */
+.about h2 {    
+    font-size: 30px;
+    text-align: center;
+    border-bottom: 1px solid;
+}
+
+.about p {
+    padding-top: 40px;
+    text-align: center;
+}
+
+/* my work */
+.work {  
+        font-size: 30px;
+        text-align: center;
+        border-bottom: 1px solid;
+    }
+
+.works h3 {
+    padding-top: 40px
+}
+
+/* contact me */
+.contact {
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 30px;
+}
+
+.contacts {
+    text-align: center;
+    font-size: 18px;
+}
