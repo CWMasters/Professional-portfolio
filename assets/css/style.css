@@ -114,8 +114,29 @@ header nav ul li a {
 #rb {   /*run buddy */
     background-image: url("../images/run-buddy-screenshot.png");
     
-    
 }
+
+#surf {
+    background-image: url("../images/beach.png");
+    background-position: center;
+}
+
+#led {
+    background-image: url("../images/led.png");
+    background-position: center;
+}
+
+#calc {
+    background-image: url("../images/calc.png");
+    background-position: center;
+}
+
+#pastel {
+    background-image: url("../images/puzzle.png");
+    background-position: center;
+}
+
+
 
 
 
