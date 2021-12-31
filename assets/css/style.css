@@ -11,8 +11,6 @@
     --tertiary-color: gray;
 }
 
-
-
 /* body */
 
 body {
@@ -33,9 +31,6 @@ header {
     background-attachment: fixed;
     height: 200px;
     width: 100%
-    
-    
-
 }
 
 header h1 {
@@ -53,9 +48,8 @@ header a {
 }
 
 section {
-    padding: 50px;   /* all sections */
+    padding: 30px;   /* all sections */
 }
-
 
 /* navigation */
 
@@ -74,11 +68,14 @@ header nav ul {
 header nav ul li a {
     padding: 10px 15px;
     font-weight: lighter;
-    font-size: 1.55vw;
+    font-size: 1.85vw;
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     color: var(--primary-color);
 }
 
+header nav ul li a:hover {
+    color: var(--secondary-color);
+}
 
 
 /* hero */
@@ -92,79 +89,96 @@ header nav ul li a {
     flex-wrap: wrap;
     color: var(--primary-color);
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    font-size: 25px;
 }
 
+/* about me */
+.about h2 {    
+    font-size: 40px;
+    text-align: center;
+    border-bottom: 2px solid;
+    color: var(--secondary-color);
+}
 
+.about p {
+    padding-top: 30px;
+    text-align: center;
+}
 
-.about { 
-    /* about me */
+/* my work */
 
+.work {   /* h2 */
+    font-size: 40px;
+    text-align: center;
+    border-bottom: 2px solid;
+    color: var(--secondary-color);
 }
 
 .mywork {   /* all my work */
     
     position: relative;
-    border: 2px solid var(--tertiary-color);
-    font-size: 25px;
+    border: 2px solid var(--secondary-color);
     text-decoration: none;
     color: var(--primary-color);  /* ext color */
     background-size: cover;
     display: flex;
     flex-wrap: wrap;
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
-    height: 300px;
-    width: 90%; 
+    height: 250px;
     margin-left: 50px;
     margin-right: 50px;
+    border-radius: 10px; /* rounded corners */
+    
 }
 
-.mywork div {
+.pics :hover{
+    color: var(--secondary-color);
+}
+
+.mywork div { /* all of my work*/
     position: absolute;
     left: 10px;
 }
-    
 
+.mywork h3 {
+    font-size: 40px;
+}
 
 #rb {   /*run buddy */
     background-image: url("../images/run-buddy-screenshot.png");
     background-position: top;
     height: 350px;
     padding-top: 150px;
-    
 }
 
-
-#surf {
+#surf { /* surf report */
     background-image: url("../images/beach.png");
-    background-position: center;
-    padding-top: 125px;
+    background-position: center; 
+    padding-top: 100px;
 }
     
-
-#led {
+#led { /* led wall */
     background-image: url("../images/led.png");
     background-position: center; 
-    padding-top: 125px;
+    padding-top: 100px;
 }
 
-#calc {
+#calc { /* calculator */
     background-image: url("../images/calc.png");
     background-position: center;
-    padding-top: 125px;
-    
+    padding-top: 100px;
 }
 
-#pastel {
+#pastel { /* pastel puzzles */
     background-image: url("../images/puzzle.png");
     background-position: center;
-    padding-top: 125px;
-    
+    padding-top: 100px;
 }
 
 
 /* sections */
 section p {      /* all section p */
-    font-size: 18px;
+    font-size: 20px;
     color: var(--tertiary-color);
 }
 
@@ -173,46 +187,27 @@ section a {
     padding: 8px;
 }
 
-/* about me */
-.about h2 {    
-    font-size: 30px;
-    text-align: center;
-    border-bottom: 1px solid;
-}
-
-.about p {
-    padding-top: 40px;
-    text-align: center;
-}
-
-/* my work */
-.work {  
-        font-size: 30px;
-        text-align: center;
-        border-bottom: 1px solid;
-    }
-
-
 /* contact me */
 
 .contact {
     text-align: center;
     padding-bottom: 20px;
-    font-size: 30px;
-    
+    font-size: 40px;
+    color: var(--secondary-color);
 }
 
 .contacts {
     text-align: center;
     font-size: 18px;
     padding: 80px;
-    
 }
 
 .contacts a {
     text-decoration: none;
     padding-left: 20px;
     padding-right: 20px;  
+    color: var(--primary-color);
+    font-style: none;
 }
 
 
