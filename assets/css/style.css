@@ -6,31 +6,29 @@
 }
 
 :root {
-    --primary-color: orange;
+    --primary-color: #b22222;
     --secondary-color: black;
-    --tertiary-color: gray;
+    --tertiary-color: grey;
 }
 
 /* body */
 
 body {
-    background-color: white;
+    background-color: var(--secondary-color);
 }
 
 /* header */
 
 header {
     padding: 25px 35px; 
-    background-color: white;
-    color: black;
     justify-content: space-between;
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-    background-image: url("../images/background.jpg");
+    background-image: url("../images/background1.jpg");
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
     height: 200px;
-    width: 100%
+    width: 100%;
 }
 
 header h1 {
@@ -74,30 +72,33 @@ header nav ul li a {
 }
 
 header nav ul li a:hover {
-    color: var(--secondary-color);
+    color: var(--tertiary-color);
+    font-size: 40px;
 }
 
 
 /* hero */
 
 .hero {  /* cool quote */
-    background-image: url("../images/background.jpg"); 
+    background-image: url("../images/background1.jpg"); 
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
     display: flex;
     flex-wrap: wrap;
     color: var(--primary-color);
-    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    text-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
     font-size: 25px;
+    -webkit-text-stroke:1px rgba(0, 0, 0, 0.5)
+    
 }
 
 /* about me */
 .about h2 {    
     font-size: 40px;
     text-align: center;
-    border-bottom: 2px solid;
-    color: var(--secondary-color);
+    border-bottom: 1px dashed var(--tertiary-color);
+    color: var(--primary-color);
 }
 
 .about p {
@@ -110,14 +111,13 @@ header nav ul li a:hover {
 .work {   /* h2 */
     font-size: 40px;
     text-align: center;
-    border-bottom: 2px solid;
-    color: var(--secondary-color);
+    border-bottom: 1px dashed var(--tertiary-color);
+    color: var(--primary-color);
 }
 
 .mywork {   /* all my work */
     
     position: relative;
-    border: 2px solid var(--secondary-color);
     text-decoration: none;
     color: var(--primary-color);  /* ext color */
     background-size: cover;
@@ -128,11 +128,14 @@ header nav ul li a:hover {
     margin-left: 50px;
     margin-right: 50px;
     border-radius: 10px; /* rounded corners */
-    
+    opacity: 0.6;
+    font-size: 40px;
+    -webkit-text-stroke:1px rgba(0, 0, 0, 0.5)
 }
 
-.pics :hover{
-    color: var(--secondary-color);
+.mywork:hover {
+    opacity: 1.0;
+    font-size: 50px;
 }
 
 .mywork div { /* all of my work*/
@@ -140,8 +143,8 @@ header nav ul li a:hover {
     left: 10px;
 }
 
-.mywork h3 {
-    font-size: 40px;
+.mywork p {
+    font-size: 20px;
 }
 
 #rb {   /*run buddy */
@@ -175,7 +178,6 @@ header nav ul li a:hover {
     padding-top: 100px;
 }
 
-
 /* sections */
 section p {      /* all section p */
     font-size: 20px;
@@ -187,13 +189,14 @@ section a {
     padding: 8px;
 }
 
+
 /* contact me */
 
 .contact {
     text-align: center;
     padding-bottom: 20px;
     font-size: 40px;
-    color: var(--secondary-color);
+    color: var(--primary-color);
 }
 
 .contacts {
@@ -204,17 +207,28 @@ section a {
 
 .contacts a {
     text-decoration: none;
-    padding-left: 20px;
-    padding-right: 20px;  
+    
     color: var(--primary-color);
     font-style: none;
+}
+
+.contacts a:hover {
+    font-size: 30px;
+    color: var(--tertiary-color);
 }
 
 
 /* media query for smaller desktop screens and smaller */
 
-@media screen and (max-width) {
+@media screen and (max-width: 980px) {
     header {
         padding-bottom: 0;
+        justify-content: center;
+        position: relative;
+    }
+
+    header nav ul li a {
+        font-size: 20px;
     }
 }
+
