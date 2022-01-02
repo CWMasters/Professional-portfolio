@@ -53,7 +53,7 @@ section {
 
 header nav {
     margin: 7px;
-    padding-top: 120px;
+    
 }
 
 header nav ul {
@@ -207,7 +207,6 @@ section a {
 
 .contacts a {
     text-decoration: none;
-    
     color: var(--primary-color);
     font-style: none;
 }
@@ -223,17 +222,19 @@ section a {
 @media screen and (max-width: 980px) {
     header {
         padding-bottom: 0;
-        justify-content: center;
         position: relative;
     }
 
     header nav ul {
-        margin-top: 80px;
         width: 100%;
         justify-content: center;
     }
 
     header nav ul li a {
+        font-size: 20px; 
+    }
+
+    .contacts a {
         font-size: 20px;
     }
 
