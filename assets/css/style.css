@@ -74,7 +74,7 @@ header nav ul li a {
 
 header nav ul li a:hover {
     color: var(--tertiary-color);
-    font-size: 40px;
+    font-size: 30px;
 }
 
 
