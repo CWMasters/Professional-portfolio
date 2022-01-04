@@ -100,8 +100,9 @@ header nav ul li a:hover {
 }
 
 #mypic {
-    height: 300px;
+    height: 250px;
     padding-left: 30px;
+    opacity: 0.75;
 }
 
 .about h2 {    
