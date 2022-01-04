@@ -76,6 +76,7 @@ header nav ul li a:hover {
     color: var(--tertiary-color);
     font-size: 30px;
 }
+/* navigation end */
 
 
 /* hero */
@@ -87,11 +88,20 @@ header nav ul li a:hover {
     text-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
     font-size: 25px;
     -webkit-text-stroke:1px rgba(0, 0, 0, 0.5);
-   
 }
 
-
 /* about me */
+.container {
+    display: flex;
+    flex-wrap: none;
+    padding-top: 30px;
+}
+
+#mypic {
+    height: 300px;
+    padding-left: 30px;
+}
+
 .about h2 {    
     font-size: 40px;
     text-align: center;
@@ -99,9 +109,9 @@ header nav ul li a:hover {
     color: var(--primary-color);
 }
 
-.about p {
-    padding-top: 30px;
-    text-align: center;
+.container p {
+    text-align: left;
+    padding: 60px;
 }
 
 /* my work */
