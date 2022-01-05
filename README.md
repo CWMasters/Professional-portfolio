@@ -16,5 +16,4 @@ https://cwmasters.github.io/professional-portfolio/
 
 
 ## Contribution
-Written and Styled by Chris Masters
-
+Written and Styled by Chris Masters.
