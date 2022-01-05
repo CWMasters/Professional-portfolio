@@ -16,5 +16,5 @@ To deliver information regarding myself, contact details for me and display my c
 ![Screenshot 2021-12-28 at 5 22 50 PM (2)](https://user-images.githubusercontent.com/95546410/147617172-54188004-9178-4a4e-9874-d284f73c2aa8.png)
 
 ## Contribution
-Made by Chris Masters
+Written and Styled by Chris Masters
 
