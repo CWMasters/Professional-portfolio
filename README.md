@@ -8,12 +8,12 @@ To deliver information regarding myself, contact details for me and display my c
 * CSS
 
 ## Website
+https://cwmasters.github.io/professional-portfolio/
 
 
 ## Screenshot
-![Screenshot 2021-12-28 at 5 22 53 PM (2)](https://user-images.githubusercontent.com/95546410/147617653-0933d7f4-a24b-429a-85cf-2a4af7868ccf.png)
+![Screen Shot 2022-01-05 at 9 58 40 AM (2)](https://user-images.githubusercontent.com/95546410/148258001-a374f0ef-03b4-4800-b013-0684973a1b72.png)
 
-![Screenshot 2021-12-28 at 5 22 50 PM (2)](https://user-images.githubusercontent.com/95546410/147617172-54188004-9178-4a4e-9874-d284f73c2aa8.png)
 
 ## Contribution
 Written and Styled by Chris Masters
