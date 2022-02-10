@@ -156,11 +156,17 @@ header nav ul li a:hover {
     font-size: 20px;
 }
 
-#rb {   /*run buddy */
-    background-image: url("../images/run-buddy-screenshot.png");
+#mv {   /*run buddy */
+    background-image: url("../images/muvies.png");
     background-position: top;
     height: 350px;
-    padding-top: 150px;
+    padding-top: 140px;
+}
+
+#rb {
+    background-image: url("../images/run-buddy-screenshot.png");
+    background-position: top;
+    padding-top: 100px;
 }
 
 #surf { /* surf report */
