@@ -1,5 +1,5 @@
 * {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -23,10 +23,10 @@ header {
     padding: 25px 35px; 
     justify-content: space-between;
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-    background-image: url("../images/background.jpg");
+    /* background-image: url("../images/background.jpg");
     background-size: cover;
     background-position: center;
-    background-attachment: fixed;
+    background-attachment: fixed; */
     height: 200px;
     width: 100%;
     display: flex;
@@ -79,8 +79,18 @@ header nav ul li a {
 }
 
 header nav ul li a:hover {
-    color: var(--tertiary-color);
+    /* color: var(--tertiary-color); */
     font-size: 30px;
+    font-weight: bold;
+    text-shadow:
+    0 0 7px rgb(0, 0, 0),
+    0 0 10px rgb(0, 0, 0),
+    0 0 21px rgb(0, 0, 0),
+    0 0 42px rgb(255, 0, 0),
+    0 0 82px rgb(255, 0, 0),
+    0 0 92px rgb(255, 0, 0),
+    0 0 102px rgb(255, 0, 0),
+    0 0 151px rgb(255, 0, 0);
 }
 /* navigation end */
 
@@ -241,7 +251,17 @@ section a {
 
 .contacts a:hover {
     font-size: 30px;
-    color: var(--tertiary-color);
+    /* color: var(--tertiary-color); */
+    font-weight: bold;
+    text-shadow:
+    0 0 7px rgb(0, 0, 0),
+    0 0 10px rgb(0, 0, 0),
+    0 0 21px rgb(0, 0, 0),
+    0 0 42px rgb(255, 0, 0),
+    0 0 82px rgb(255, 0, 0),
+    0 0 92px rgb(255, 0, 0),
+    0 0 102px rgb(255, 0, 0),
+    0 0 151px rgb(255, 0, 0);
 }
 
 
