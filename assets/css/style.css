@@ -23,10 +23,10 @@ header {
     padding: 25px 35px; 
     justify-content: space-between;
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-    /* background-image: url("../images/background.jpg");
+    background-image: url("../images/background.jpg");
     background-size: cover;
     background-position: center;
-    background-attachment: fixed; */
+    background-attachment: fixed;
     height: 200px;
     width: 100%;
     display: flex;
@@ -180,7 +180,7 @@ header nav ul li a:hover {
 }
 
 #mv {   /*run buddy */
-    background-image: url("../images/moveies.png");
+    background-image: url("../images/moveies-screenshot.png");
     background-position: top;
     height: 350px;
     padding-top: 140px;
