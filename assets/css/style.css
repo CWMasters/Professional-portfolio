@@ -192,8 +192,8 @@ header nav ul li a:hover {
     padding-top: 100px;
 }
 
-#surf { /* surf report */
-    background-image: url("../images/beach.png");
+#spare { /* surf report */
+    background-image: url("../images/spare-parts.png");
     background-position: center; 
     padding-top: 100px;
 }
